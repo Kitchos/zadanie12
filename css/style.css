@@ -1,0 +1,104 @@
+#auth-user-info{
+	color: black;
+}
+
+.top-auth{
+	margin-right: 20px;
+}
+
+.top{
+	color: black;
+}
+
+#form-registration{
+
+	list-style:none;
+    padding-left: 0px;
+}
+
+#form-registration li {
+  
+    margin-top: 10px;
+
+}
+
+#form-registration > li > label{
+  	position:absolute;
+    font: 15px sans-serif;
+    margin-top: 7px;
+}
+
+#form-registration > li > input{
+
+    height: 20px;
+    width: 220px;
+    font: 17px sans-serif;
+    margin-left: 150px;
+    padding-left: 5px;
+    color: black;
+
+}
+
+#block-registration{
+	background-color: #F2F2F2;
+	margin: 100px auto;
+	width: 390px;
+	height: auto;
+	text-align:center;
+}
+
+#form-autorization{
+	list-style:none;
+    padding-left: 0px;
+}
+
+#form-autorization li {
+  
+    margin-top: 10px;
+
+}
+
+#form-autorization > li > label{
+  	position:absolute;
+    font: 15px sans-serif;
+    margin-top: 7px;
+}
+
+#form-autorization > li > input{
+
+    height: 20px;
+    width: 220px;
+    font: 17px sans-serif;
+    margin-left: 100px;
+    padding-left: 5px;
+    color: black;
+
+}
+
+#block-autorization{
+	background-color: #F2F2F2;
+	margin: 100px auto;
+	width: 340px;
+	height: auto;
+	text-align:center;
+}
+
+#submit{
+	margin-right: 5px;
+	margin-bottom: 10px;
+	visibility: hidden;
+}
+
+#autorization{
+	margin-right: 5px;
+	margin-bottom: 10px;
+	visibility: hidden;
+}
+#authentication{
+	background-color: #F2F2F2;
+	margin: auto;
+	width: 145px;
+	height: auto;
+	text-align: center;
+}
+
