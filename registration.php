@@ -27,12 +27,12 @@
 
 <li>
 <label>password</label>
-<input type="text" name="reg_pass" id="reg_pass" />
+<input type="password" name="reg_pass" id="reg_pass" />
 </li>
 
 <li>
 <label>confirm_password</label>
-<input type="text" name="reg_pass_confirm" id="reg_pass_confirm" />
+<input type="password" name="reg_pass_confirm" id="reg_pass_confirm" />
 </li>
 
 <li>

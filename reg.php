@@ -47,20 +47,20 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 	}
 	
 	// Проверяем логин если не пустое проверяем на сущевствование в бд
-	if($_POST['reg_email'] == ''){
+	if(!preg_match('/^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$/',$_POST['reg_email'])){
 		$reg_email = 'Email не можеть быть пустым!<br>';
 		$registration = false;
 	}else{
 		foreach($xml as $user){
 			if($user->email == $_POST['reg_email']){
-				$reg_email = 'Такой email уже существует!<br>';
+				$reg_email = 'Email введен не корректно!<br>';
 				$registration = false;
 			}
 		}
 	}
 	
 	// Проверяем имя на правильность
-	if(!preg_match('/^[a-z]+$/i',$_POST['reg_name'])){
+	if(!preg_match('/^[a-zа-я]+$/ui',$_POST['reg_name'])){
 		$reg_name = 'Имя должено содержать только буквы!<br>';
 		$registration = false;
 	}

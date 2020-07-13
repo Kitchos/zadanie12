@@ -34,7 +34,7 @@
 
 <li>
 <label>password</label>
-<input type="text" name="auth_pass" id="auth_pass" />
+<input type="password" name="auth_pass" id="auth_pass" />
 </li>
 
 </ul>
